@@ -10,6 +10,9 @@
 ### In NavBar component we will add Links for route folder data with the help of `link` module from `react-router-dom`
 
 
-
-
+## Building Components:-
+### 1.NavBar Component:-
+![Screenshot (105)](https://github.com/Sahil-563/My-Portfolio/assets/93484552/463b6a2d-24ff-41e9-99c6-434745350cc7)
+![Screenshot (106)](https://github.com/Sahil-563/My-Portfolio/assets/93484552/c4d3ed62-1d0e-4022-8462-7a1fa0b3fc53)
+![Screenshot (107)](https://github.com/Sahil-563/My-Portfolio/assets/93484552/53371d14-f8be-4e3d-8eec-ad6370a22754)
 

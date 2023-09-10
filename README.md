@@ -16,3 +16,5 @@
 ![Screenshot (106)](https://github.com/Sahil-563/My-Portfolio/assets/93484552/c4d3ed62-1d0e-4022-8462-7a1fa0b3fc53)
 ![Screenshot (107)](https://github.com/Sahil-563/My-Portfolio/assets/93484552/53371d14-f8be-4e3d-8eec-ad6370a22754)
 
+### 2.Hero Section:-
+![Screenshot (108)](https://github.com/Sahil-563/My-Portfolio/assets/93484552/cc5db8b5-22ec-49b5-8d4c-c27e1125d282)

@@ -1,6 +1,9 @@
+import HeroSection2 from "../components/HeroSection2"
 const About=()=>{
     return(
-        <><h2>About</h2></>
+        <>
+        <HeroSection2 heading='About' text="I'm your friendly Full Stack Developer Mr. Sahil"/>
+        </>
     )
 }
 export default About

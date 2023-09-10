@@ -1,6 +1,9 @@
+import HeroSection2 from "../components/HeroSection2"
 const Project=()=>{
     return(
-        <><h2>Project</h2></>
+        <>
+        <HeroSection2 heading='Projects' text='These are my some of the projects'/>
+        </>
     )
 }
 export default Project

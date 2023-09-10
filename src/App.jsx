@@ -4,21 +4,24 @@ import Home from './routes/Home';
 import About from './routes/About';
 import Contact from './routes/Contact';
 import Project from './routes/Project';
-import NavBar from './components/NavBar';
+import NavBar from './components/NavBar'
+import Footer from "./components/Footer"
+
+
 
 function App() {
   return (
     <>
-    <Router>
-      <div>
-        <NavBar/>
+    
+    <Router>  
+    <NavBar/>
       <Routes>
           <Route path="/" element={<Home />} />
           <Route path="/About" element={<About />} />
           <Route path="/Contact" element={<Contact />} />
           <Route path="/Project" element={<Project />} />
         </Routes>
-      </div>
+        <Footer/>
     </Router>
     
     </>

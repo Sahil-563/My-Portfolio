@@ -1,5 +1,6 @@
 import './HeroSectionStyles.css';
 import HeroImg from '../assets/HeroImg3.jpg'
+import Project from '../routes/Project';
 import{Link} from 'react-router-dom';
 const HeroSection = () => {
     return (
@@ -24,6 +25,7 @@ const HeroSection = () => {
 
                 </div>
             </div>
+            
         </>
     )
 }

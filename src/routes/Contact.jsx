@@ -1,6 +1,9 @@
+import HeroSection2 from "../components/HeroSection2"
 const Contact=()=>{
     return(
-        <><h2>Contact</h2></>
+        <>
+        <HeroSection2 heading='Contact' text="Lets's have a chat"/>
+        </>
     )
 }
 export default Contact

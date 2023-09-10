@@ -10,7 +10,7 @@
 }
 .header-bg{
     background-color: rgba(0,0,0,0.85);
-    transition: 0.6s;
+    transition: 0.4s;
 }
 .nav-menu {
     display: flex;
@@ -26,10 +26,10 @@
     font-size: 1.2rem;
     font-weight: 500;
 }
-li{
+.nav-menu li{
     position: relative;
 }
-li::after {
+.nav-menu li::after {
     background-color: rgb(248, 217, 15);
     content: "";
     width: 0px;

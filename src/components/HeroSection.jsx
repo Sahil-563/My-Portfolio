@@ -17,9 +17,9 @@ const HeroSection = () => {
                             className="btn">
                             Projects
                         </Link>
-                        <Link to="/contact"
+                        <Link to=""
                             className="btn btn-light">
-                            Contact
+                            Resume
                         </Link>
                     </div>
 

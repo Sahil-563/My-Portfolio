@@ -18,3 +18,6 @@
 
 ### 2.Hero Section:-
 ![Screenshot (108)](https://github.com/Sahil-563/My-Portfolio/assets/93484552/cc5db8b5-22ec-49b5-8d4c-c27e1125d282)
+
+### 2.Skill Section:-
+![Screenshot (131)](https://github.com/Sahil-563/My-Portfolio/assets/93484552/011c2a33-27c6-4203-8d5e-cbd4ddd39033)

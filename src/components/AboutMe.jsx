@@ -1,7 +1,7 @@
 import './AboutMeStyles.css'
 import {Link} from 'react-router-dom'
 import img1 from '../assets/AboutmeImg1.avif'
-import img2 from '../assets/Aboutme2.avif'
+
 const AboutMe=()=>{
     return(
         <>

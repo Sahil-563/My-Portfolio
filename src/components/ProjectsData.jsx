@@ -1,18 +1,28 @@
 import newpaperprojectcoverphoto from '../assets/new-paper-project-cover-photo.webp'
+import schoolWebsitePhoto from '../assets/schoolWebsiteProject1.jpeg'
+import AgeCalculator from '../assets/Age-Calculator.jpg'
 const ProjectsData=[{
     imgsrc:newpaperprojectcoverphoto,
     title:'News-Scrapper Website',
-    description:'Lorem ipsum, dolor sit amet consectetur adipisicing elit. Magnam, aperiam nesciunt, nostrum possimus architecto ducimus quae aut, repellat doloremque quasi cum. Libero quasi cupiditate alias dolorum eos? Animi consequuntur voluptatum eaque natus sit, inventore totam fugiat delectus. Totam accusantium mollitia ipsa adipisci harum optio iste, similique quod dolores ad vero officia. Cumque impedit, molestiae explicabo consectetur quisquam temporibus magnam totam, itaque veritatis consequatur quaerat facere recusandae molestias? Ratione, mollitia sit animi hic odit consectetur illum minus, obcaecati voluptates, cum nemo accusamus aspernatur reprehenderit quidem. Eos temporibus commodi iste deserunt inventore fugit doloribus illo voluptatem doloremque, laboriosam, maxime tempora aspernatur at.',
-    view:'url.com'
+    description:'Lorem ipsum, dolor sit amet consectetur adipisicing elit. Magnam, aperiam nesciunt, nostrum possimus architecto ducimus quae aut, repellat doloremque quasi cum. Libero quasi cupiditate alias dolorum eos? possimus architecto ducimus quae aut, repellat doloremque quasi cum. Libero quasi cupiditate alias dolorum eos?possimus architecto ducimus quae aut, repellat doloremque quasi cum. Libero quasi cupiditate alias dolorum eos?',
+    source:'https://github.com/Sahil-563/news-web'
 },{
-    imgsrc:newpaperprojectcoverphoto,
+    imgsrc:schoolWebsitePhoto ,
     title:'News-Scrapper Website',
-    description:'Lorem ipsum, dolor sit amet consectetur adipisicing elit. Magnam, aperiam nesciunt, nostrum possimus architecto ducimus quae aut, repellat doloremque quasi cum. Libero quasi cupiditate alias dolorum eos? Animi consequuntur voluptatum eaque natus sit, inventore totam fugiat delectus. Totam accusantium mollitia ipsa adipisci harum optio iste, similique quod dolores ad vero officia. Cumque impedit, molestiae explicabo consectetur quisquam temporibus magnam totam, itaque veritatis consequatur quaerat facere recusandae molestias? Ratione, mollitia sit animi hic odit consectetur illum minus, obcaecati voluptates, cum nemo accusamus aspernatur reprehenderit quidem. Eos temporibus commodi iste deserunt inventore fugit doloribus illo voluptatem doloremque, laboriosam, maxime tempora aspernatur at.',
-    view:'url.com'
+    description:'Lorem ipsum, dolor sit amet consectetur adipisicing elit. Magnam, aperiam nesciunt, nostrum possimus architecto ducimus quae aut, repellat doloremque quasi cum. Libero quasi cupiditate alias dolorum eos?   .',
+    view:'https://sahil-563.github.io/School_Website/',
+    source:'https://github.com/Sahil-563/School_Website'
 },{
-    imgsrc:newpaperprojectcoverphoto,
+    imgsrc:AgeCalculator,
     title:'News-Scrapper Website',
-    description:'Lorem ipsum, dolor sit amet consectetur adipisicing elit. Magnam, aperiam nesciunt, nostrum possimus architecto ducimus quae aut, repellat doloremque quasi cum. Libero quasi cupiditate alias dolorum eos? Animi consequuntur voluptatum eaque natus sit, inventore totam fugiat delectus. Totam accusantium mollitia ipsa adipisci harum optio iste, similique quod dolores ad vero officia. Cumque impedit, molestiae explicabo consectetur quisquam temporibus magnam totam, itaque veritatis consequatur quaerat facere recusandae molestias? Ratione, mollitia sit animi hic odit consectetur illum minus, obcaecati voluptates, cum nemo accusamus aspernatur reprehenderit quidem. Eos temporibus commodi iste deserunt inventore fugit doloribus illo voluptatem doloremque, laboriosam, maxime tempora aspernatur at.',
-    view:'url.com'
+    description:'Lorem ipsum, dolor sit amet consectetur adipisicing elit. Magnam, aperiam nesciunt, nostrum possimus architecto ducimus quae aut, repellat doloremque quasi cum. Libero quasi cupiditate alias dolorum eos? ',
+    view:'https://monumental-palmier-ac3734.netlify.app/',
+    source:'https://github.com/Sahil-563/Department-Webpage'
+},{
+    imgsrc:AgeCalculator,
+    title:'News-Scrapper Website',
+    description:'Lorem ipsum, dolor sit amet consectetur adipisicing elit. Magnam, aperiam nesciunt, nostrum possimus architecto ducimus quae aut, repellat doloremque quasi cum. Libero quasi cupiditate alias dolorum eos? ',
+    view:'https://monumental-palmier-ac3734.netlify.app/',
+    source:'https://github.com/Sahil-563/Department-Webpage'
 }]
 export default ProjectsData

@@ -3,18 +3,23 @@
     padding: 4rem 0 2rem 0;
 }
 .project-container {
-    max-width: 1140px;
+    max-width: 1020px;
     margin: auto;
     display: grid;
-    grid-template-columns: repeat(3,1fr);
-    grid-gap: 40px;
+    grid-template-columns: repeat(2,1fr);
+    grid-gap: 130px;
     padding-bottom: 5rem;
 }
 .project-card{
     box-shadow: 0 0 10px #fff;
+    transition: 0.5s;
+}
+.project-card:hover{
+    transform: translateY(30px);
 }
 .project-card>img{
     width: 100%;
+   
 } 
 .project-title{
     text-align: center;

@@ -19,6 +19,7 @@ const NavBar = () => {
             setColor(false);
         }
     }
+    
     window.addEventListener('scroll',changeColor)
     return (
         <>
@@ -27,16 +28,16 @@ const NavBar = () => {
                     <h1>Portfolio</h1>
                 </Link>
                 <ul className={click ?('nav-menu active'):('nav-menu')}>
-                    <li><Link to='/'>
+                    <li><Link to='/' >
                         Home
                     </Link></li>
-                    <li><Link to='/About'>
+                    <li><Link to='/About' >
                         About
                     </Link></li>
-                    <li><Link to='/Contact'>
+                    <li><Link to='/Contact' >
                         Contact
                     </Link></li>
-                    <li><Link to='/Project'>
+                    <li><Link to='/Project' >
                         Project
                     </Link></li>
                 </ul>

@@ -34,7 +34,7 @@
     content: "";
     width: 0px;
     height: 3px;
-    left: 8px;
+    left: 0px;
     bottom: 0;
     transition: width 0.35s ease 0s;
     position: absolute;
@@ -62,7 +62,7 @@
 
     }
     .nav-menu.active{
-        left: 0;
+        left: -25%;
     }
     .nav-menu li{
         padding:1rem 0;

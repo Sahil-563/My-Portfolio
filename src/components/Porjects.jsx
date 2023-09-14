@@ -15,7 +15,8 @@ const Porjects = () => {
                             img={data.imgsrc}
                             title={data.title}
                             description={data.description}
-                            viewUrl={data.view}/>
+                            viewUrl={data.view}
+                            source={data.source}/>
                         )
                     })}
                 </div>

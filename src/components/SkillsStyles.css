@@ -1,0 +1,58 @@
+.skills-section{
+    padding-top: 5rem;
+    padding-bottom: 5rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.sci{
+    position: relative;
+    display: grid;
+    grid-template-columns: repeat(3,200px);
+    column-gap: 10px;
+    grid-gap: 50px;
+    padding-top: 3rem;
+    justify-content:center;
+    
+    
+}
+.Skills-heading{
+    text-align: center;
+}
+.skills-names{
+    margin-top: 18px;
+    align-items: center;
+    text-align: center;
+    width: 200px;
+    border-radius: 10px;
+    border: 2px solid white;
+    box-shadow: 0 0 10px #fff;
+}
+.sci>li {
+    
+    justify-self: center;
+    align-self: center;
+
+}
+
+.sci>li:hover{
+    filter: blur(0);
+    animation: mymove 0.5s forwards;
+    cursor: pointer;
+    
+}
+.sci:hover li:not(:hover) {
+    filter: blur(4px); /* Blur all other li elements when hovering over any li */
+  }
+
+@keyframes mymove {
+    100% {transform: rotate(360deg) scale(2);}
+  }
+
+@media screen and (max-width:720px){
+    .sci{
+        grid-template-columns: repeat(3,1fr);
+        grid-gap: 40px;
+    }
+}

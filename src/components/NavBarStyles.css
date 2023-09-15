@@ -12,6 +12,13 @@
     background-color: rgba(0,0,0,0.85);
     transition: 0.4s;
 }
+.social-media-links{
+    display: flex;
+    margin-left: 100px;
+}
+.social-media-links>li{
+    list-style: none;
+}
 .nav-menu {
     display: flex;
 
@@ -47,6 +54,9 @@
     display: none;
 }
 @media screen and (max-width: 1040px) {
+    .social-media-links{
+        margin-left: 0px;
+    }
     .nav-menu {
         flex-direction: column;
         justify-content: center;

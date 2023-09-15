@@ -2,7 +2,8 @@ import './NavBarStyles.css';
 import React from 'react';
 import { useState } from 'react';
 import { Link } from 'react-router-dom';
-import { FaBars , FaTimes} from 'react-icons/fa';
+import { FaBars , FaTimes,FaLinkedin,FaGithub} from 'react-icons/fa';
+
 
 
 const NavBar = () => {
@@ -25,8 +26,13 @@ const NavBar = () => {
         <>
             <div className={color?('header header-bg'):('header')}>
                 <Link to='/'>
-                    <h1>Portfolio</h1>
+                    <h1>Sahil's Portfolio</h1>
                 </Link>
+                <ul className='social-media-links'>
+                    
+                    <li><Link to="https://linkedin.com/in/sahil-bharadwaj"><FaLinkedin size={40} style={{ color: "#fff", marginRight: '1rem' }} /></Link></li>
+                    <li><Link to='https://github.com/Sahil-563'><FaGithub size={40} style={{ color: "#fff", marginRight: '1rem' }} /></Link></li>
+                </ul>
                 <ul className={click ?('nav-menu active'):('nav-menu')}>
                     <li><Link to='/' >
                         Home
@@ -38,8 +44,8 @@ const NavBar = () => {
                         Contact
                     </Link></li>
                     <li><Link to='/Project' >
-                        Project
-                    </Link></li>
+                        Projects
+                    </Link></li> 
                 </ul>
 
                 <div className='hamsburger' onClick={handleClick}>

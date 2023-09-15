@@ -2,8 +2,13 @@ import './HeroSectionStyles.css';
 import HeroImg from '../assets/fii.avif'
 import Project from '../routes/Project';
 import{Link} from 'react-router-dom';
+import {useTypewriter,Cursor} from 'react-simple-typewriter';
 
 const HeroSection = (props) => {
+    const[text]=useTypewriter({
+        words:['A Full Stack Developer','A Tech Enthusiast','An Open Source Contributor'],
+        loop:{}
+    })
  
     return (
         <>
@@ -13,7 +18,8 @@ const HeroSection = (props) => {
                 </div>
                 <div className='content'>
                     <p>Hello ,My name is Sahil</p>
-                    <h1>A Full Stack developers</h1>
+                    <span><h1>I'm {text}</h1></span>
+                    
                     <div>
                         <Link to="/project"
                             className="btn">

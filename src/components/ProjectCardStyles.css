@@ -9,10 +9,13 @@
     grid-template-columns: repeat(2,1fr);
     grid-gap: 130px;
     padding-bottom: 5rem;
+    
 }
 .project-card{
-    box-shadow: 0 0 10px #fff;
+    box-shadow: 0 0 20px #fff;
     transition: 0.5s;
+    
+    
 }
 .project-card:hover{
     transform: translateY(30px);

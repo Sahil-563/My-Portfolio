@@ -14,8 +14,9 @@
     grid-gap: 50px;
     padding-top: 3rem;
     justify-content:center;
-    
-    
+}
+.sci>li{
+    list-style: none;
 }
 .Skills-heading{
     text-align: center;
@@ -43,16 +44,17 @@
     
 }
 .sci:hover li:not(:hover) {
-    filter: blur(4px); /* Blur all other li elements when hovering over any li */
+    filter: blur(8px); /* Blur all other li elements when hovering over any li */
   }
 
 @keyframes mymove {
-    100% {transform: rotate(360deg) scale(2);}
+    100% {transform: rotate(360deg) scale(2) ;}
   }
 
 @media screen and (max-width:720px){
     .sci{
         grid-template-columns: repeat(3,1fr);
-        grid-gap: 40px;
+        grid-gap: 10px;
+        margin-right: 10px;
     }
 }

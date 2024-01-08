@@ -9,12 +9,12 @@
     z-index: 10;
 }
 .header-bg{
-    background-color: rgba(0,0,0,0.85);
+    background-color: #060d1b;
     transition: 0.4s;
 }
 .social-media-links{
     display: flex;
-    margin-left: 100px;
+    margin-left: 250px;
 }
 .social-media-links>li{
     list-style: none;

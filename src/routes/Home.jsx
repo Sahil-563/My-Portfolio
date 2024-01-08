@@ -13,7 +13,7 @@ const Home=()=>{
             <Skills/>
             <Projects/>
             <AboutMe/>
-            <h1 style={{textAlign:'center'}}>Contact Me</h1>
+            
             <ContactMe/>
            
         </div>

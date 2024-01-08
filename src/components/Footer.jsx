@@ -10,18 +10,18 @@ const Footer = () => {
                         <div className='location'>
                             <h4>
                                 <FaHome size={20} style={{ color: "#fff", marginRight: '2rem' }} />
-                                Vill. Patbag India
+                                Palampur , Himachal Pradesh , India
                             </h4>
                             
 
                         </div>
                         <div className='phone'>
-                            <h4><FaPhone size={20} style={{ color: "#fff", marginRight: '2rem' }} /> +91 9805420563</h4>
+                            <h4><FaPhone size={20} style={{ color: "#fff", marginRight: '2rem' }} /> +91 11111111111</h4>
                         </div>
                         <div className='email'>
                             <h4><FaMailBulk size={20} style={{ color: "#fff", marginRight: '2rem' }} /></h4>
                             <p><h4>
-                            sahil2002ece@gmail.com</h4></p>
+                            sahil.bz.2002@gmail.com</h4></p>
                         </div>
                     </div>
                     <div className='right'>

@@ -1,14 +1,12 @@
 .hero-img {
     width: 100%;
     background: rgba(0, 0, 0, 0.5);
-    height: 70vh;
+    height: 90vh;
     position: relative;
     
 }
-.hero-img>img{
-    width: 100%;
-    height: 100%;
-    opacity: 0.5;
+.intro-img{
+    opacity: 0.6;
 }
 .heading {
     position: absolute;

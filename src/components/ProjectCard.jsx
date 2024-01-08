@@ -5,6 +5,7 @@ const ProjectCard = (props) => {
         <>
             <div className="project-card">
                 <img src={props.img} alt="image" />
+                <div className='right-part'>
                 <h2 className='project-title'>{props.title}</h2>
                 <div className="pro-details">
                     <p>{props.description}</p>
@@ -19,6 +20,8 @@ const ProjectCard = (props) => {
                         </Link>
                     </div>
                 </div>
+                </div>
+                
             </div>
         </>
     )

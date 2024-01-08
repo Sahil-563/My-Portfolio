@@ -1,10 +1,13 @@
 import './HeroSection2Styles.css'
-import Hero3 from '../assets/Hero3.avif';
+
+import video1 from '../assets/v_v.mp4'
 const HeroSection2 = (props) => {
     return (
         <>
             <div className="hero-img">
-                <img src={Hero3} alt="hero-img" />
+            <video className='intro-img' width="100%" height="100%" loop autoPlay muted>
+                        <source src={video1} type="video/mp4"></source>
+                    </video>
                 <div className="heading">
                     <h1>{props.heading}</h1>
                     <p>{props.text}</p>

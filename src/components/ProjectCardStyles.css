@@ -1,27 +1,33 @@
+.work-container{
+    background-color: #0d1729;
+}
 .project-heading {
     text-align: center;
-    padding: 4rem 0 2rem 0;
 }
 .project-container {
     max-width: 1020px;
     margin: auto;
     display: grid;
-    grid-template-columns: repeat(2,1fr);
-    grid-gap: 130px;
+    grid-template-columns: repeat(1,1fr);
+    grid-gap: 30px;
     padding-bottom: 5rem;
     
 }
 .project-card{
+    display: flex;
+    gap: 20px;
+    max-height: 280px;
     box-shadow: 0 0 20px #fff;
     transition: 0.5s;
     
     
 }
 .project-card:hover{
-    transform: translateY(30px);
+    transform: translateY(20px);
 }
 .project-card>img{
-    width: 100%;
+    width: 30%;
+    
    
 } 
 .project-title{
@@ -32,17 +38,28 @@
 }
 .pro-details p{
     padding: 20px;
-    
     font-size: 1.1rem;
 }
 .pro-btns{
     display: flex;
     justify-content: space-between;
 }
+.hovering-para{
+    text-align: center;
+    padding-bottom: 2rem;
+}
 @media screen and (max-width:720px){
     .project-container{
         max-width: 90%;
         margin: auto;
+        grid-gap: 100px;
         grid-template-columns: 1fr;
+    }
+    .project-card{
+        display: inline;
+        max-height: fit-content
+    }
+    .project-card>img{
+        width: 100%;
     }
 }

@@ -9,7 +9,7 @@
 }
 
 body {
-    background: #000;
+    background: #1c3157;
     overflow-x: hidden;
 }
 
@@ -27,6 +27,8 @@ a {
     font-size: 1rem;
     text-transform: uppercase;
     background: rgb(248, 217, 15);
+    
+    
     color: #222;
     border: 1px solid #fff;
     font-weight: 600;
